@@ -13,3 +13,10 @@ usethis::use_git()
 use_github()
 git_default_branch_rename()
 git_default_branch_configure(name = "main")
+
+library(palmerpenguins)
+View(penguins)
+str(penguins)
+head(penguins)
+data(penguins, package = "palmerpenguins")
+penguins
